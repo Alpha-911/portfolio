@@ -12,5 +12,13 @@
   right: 80px;
   cursor: pointer;
 }
+.nav .first {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.nav .last {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
 
 /*# sourceMappingURL=NavBar.module.css.map */
