@@ -3,7 +3,8 @@
   gap: 50px;
   grid-template-columns: 0.2fr 1fr 0.2fr;
   grid-template-rows: 100px;
-  -webkit-transform: translateZ(0);
+  position: fixed;
+  width: 100vw;
 }
 .nav img {
   height: 35px;
