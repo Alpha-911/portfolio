@@ -36,7 +36,7 @@ function NavBar() {
                         <>
                             <div className={styles.first}></div>
                             <Navigation/>
-                            <div <div className={styles.last}></div>></div>
+                            <div className={styles.last}></div>
                             {/*<img*/}
                             {/*    src={isLight ? pageData.light : pageData.dark}*/}
                             {/*    onClick={() => setIsLight(!isLight)} alt="light"/>*/}
