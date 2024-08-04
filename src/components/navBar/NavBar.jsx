@@ -34,9 +34,9 @@ function NavBar() {
                     :
                     isDataFetched?
                         <>
-                            <div></div>
+                            <div className={styles.first}></div>
                             <Navigation/>
-                            <div />
+                            <div <div className={styles.last}></div>></div>
                             {/*<img*/}
                             {/*    src={isLight ? pageData.light : pageData.dark}*/}
                             {/*    onClick={() => setIsLight(!isLight)} alt="light"/>*/}
