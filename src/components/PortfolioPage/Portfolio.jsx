@@ -13,7 +13,7 @@ function Portfolio() {
         setSelectedPage('portfolio')
         async function fetchData (){
             setIsLoading(true)
-            const response = await fetch('https://portfolio-server-27i3.onrender.com')
+            const response = await fetch('https://supreme-gerrie-rishu-raj-f3310073.koyeb.app/')
             const portfolioPageData = await response.json()
             setPageData(portfolioPageData.data[0].portfolioPage)
             if(pageData === null)
