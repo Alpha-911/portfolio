@@ -1,0 +1,79 @@
+.main_container {
+  margin: 0 10vw;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.intro {
+  display: grid;
+  grid-template-rows: 1fr 0.3fr 1fr;
+  grid-template-columns: 4fr 2fr;
+}
+
+.name {
+  align-self: end;
+  margin: 0;
+  font-weight: lighter;
+}
+
+.desig {
+  align-self: start;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.contact {
+  border: 2px solid #E1B363;
+  margin: 0;
+  padding: 0.8rem;
+  width: 6.7rem;
+  align-self: center;
+  justify-self: center;
+  color: #E1B363;
+}
+
+.image {
+  height: 50vh;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  border: 2px solid #E1B363;
+  border-radius: 50vmax;
+}
+
+.about_container {
+  width: 60vw;
+  margin: 3rem 0;
+}
+
+.about_heading,
+.skill_heading {
+  font-size: 2.5rem;
+}
+
+.about_me {
+  width: 60vw;
+  text-align: justify;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+}
+
+.skill_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.skill_heading {
+  justify-self: center;
+  margin: 6rem 0;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+/*# sourceMappingURL=About.module.css.map */

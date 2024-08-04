@@ -1,0 +1,16 @@
+.nav {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  grid-template-rows: 100px;
+}
+.nav img {
+  height: 35px;
+  align-self: center;
+  justify-self: center;
+  position: fixed;
+  right: 80px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=NavBar.module.css.map */

@@ -1,0 +1,31 @@
+.skill_card {
+  display: flex;
+  flex-flow: column;
+  height: 18vmax;
+  width: 18vmax;
+  justify-content: center;
+  align-items: center;
+  background: #3D3E42;
+  border-radius: 2rem;
+  cursor: default;
+
+  &:hover,
+  &:active {
+    background: #E1B363;
+    color: black;
+  }
+
+  img {
+    margin: 2rem 0;
+    max-height: 40%;
+    max-width: 40%;
+  }
+
+  h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+  }
+}

@@ -1,0 +1,20 @@
+.portfolio_container {
+  margin: 0 10vw;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: white;
+}
+
+.heading {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}

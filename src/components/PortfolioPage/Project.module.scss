@@ -1,0 +1,27 @@
+.project {
+  display: grid;
+  grid-template-rows: 0.1fr 0.2fr 1fr;
+  grid-template-columns: 1fr;
+  margin-bottom: 10vw;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: white;
+
+  h2 {
+    margin: 1rem 0 0.2rem 0;
+  }
+
+  p {
+    margin: 1.5rem 0;
+  }
+}
+
+.tile_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5.5vmax;
+  column-gap: 5.5vmax;
+}

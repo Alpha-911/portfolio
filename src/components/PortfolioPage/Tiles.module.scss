@@ -1,0 +1,67 @@
+.tile {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 23vmax;
+  height: 23vmax;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  cursor: pointer;
+  border: 1px solid #E1B363;
+  box-sizing: border-box;
+  border-radius: 2rem;
+
+  &:hover,
+  &:active {
+    border: 4px solid #E1B363;
+  }
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.9rem;
+  }
+
+  .description {
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-columns: 1fr 0.3fr 0.3fr 0.3fr;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    color: white;
+    border-radius: 1.9rem;
+    cursor: default;
+
+    a,
+    img {
+      height: 2rem;
+      width: 2rem;
+      align-self: center;
+      justify-self: center;
+      cursor: pointer;
+      border-radius: 0;
+    }
+
+    h3 {
+      margin: 1rem;
+      align-self: center;
+      justify-self: center;
+    }
+
+    p {
+      margin: 1rem;
+      grid-column-start: 1;
+      grid-column-end: 5;
+    }
+  }
+}

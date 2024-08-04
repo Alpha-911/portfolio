@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  flex-flow: row;
+  justify-self: center;
+  align-self: center;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+  border-radius: 50px;
+  position: fixed;
+  backdrop-filter: blur(5px) drop-shadow(8px 8px #000000);
+  z-index: 5;
+
+  span {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin: 10px 30px;
+    color: #757678;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .active {
+    color: white;
+  }
+}
