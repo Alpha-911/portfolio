@@ -12,4 +12,14 @@
     right: 80px;
     cursor: pointer;
   }
+
+  .first {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .last {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+
 }
