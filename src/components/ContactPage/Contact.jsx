@@ -13,7 +13,7 @@ function Contact() {
         setSelectedPage('contact')
         async function fetchData() {
             setIsLoading(true)
-            const response = await fetch('https://portfolio-server-27i3.onrender.com')
+            const response = await fetch('https://supreme-gerrie-rishu-raj-f3310073.koyeb.app/')
             const contactData = await response.json();
             setPageData(contactData.data[0].contactPage)
             if(pageData === null)
